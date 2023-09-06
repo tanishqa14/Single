@@ -214,6 +214,9 @@
 					"referenceName": "AzureDataLakeStorage1",
 					"type": "LinkedServiceReference"
 				},
+				"folder": {
+					"name": "Folder2"
+				},
 				"annotations": [],
 				"type": "Binary",
 				"typeProperties": {
@@ -237,6 +240,9 @@
 				"linkedServiceName": {
 					"referenceName": "AzureDataLakeStorage1",
 					"type": "LinkedServiceReference"
+				},
+				"folder": {
+					"name": "Folder2"
 				},
 				"annotations": [],
 				"type": "DelimitedText",
@@ -265,6 +271,9 @@
 					"referenceName": "AzureDataLakeStorage1",
 					"type": "LinkedServiceReference"
 				},
+				"folder": {
+					"name": "Folder1"
+				},
 				"annotations": [],
 				"type": "DelimitedText",
 				"typeProperties": {
@@ -291,6 +300,9 @@
 				"linkedServiceName": {
 					"referenceName": "AzureDataLakeStorage1",
 					"type": "LinkedServiceReference"
+				},
+				"folder": {
+					"name": "Folder1"
 				},
 				"annotations": [],
 				"type": "DelimitedText",
