@@ -9,7 +9,7 @@
 				"userProperties": [],
 				"typeProperties": {
 					"items": {
-						"value": "@pipeline().parameters.account_names",
+						"value": "@pipeline().parameters.acc_name",
 						"type": "Expression"
 					},
 					"condition": {
@@ -21,7 +21,7 @@
 		],
 		"parameters": {
 			"acc_name": {
-				"type": "string",
+				"type": "array",
 				"defaultValue": "tanu1410"
 			}
 		},
