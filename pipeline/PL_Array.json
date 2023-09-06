@@ -19,6 +19,12 @@
 				}
 			}
 		],
+		"parameters": {
+			"acc_name": {
+				"type": "string",
+				"defaultValue": "t1410"
+			}
+		},
 		"variables": {
 			"DataArray": {
 				"type": "Array",
