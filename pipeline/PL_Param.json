@@ -21,8 +21,18 @@
 		],
 		"parameters": {
 			"acc_name": {
-				"type": "array",
-				"defaultValue": "tanu1410"
+				"type": "array"
+			}
+		},
+		"variables": {
+			"acc_name": {
+				"type": "Array",
+				"defaultValue": [
+					"aaa",
+					"bbb",
+					"ccc",
+					"ddd"
+				]
 			}
 		},
 		"annotations": []
