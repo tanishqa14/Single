@@ -1,0 +1,20 @@
+{
+	"name": "DSInput",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDataLakeStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "emp.txt",
+				"folderPath": "input",
+				"fileSystem": "container1"
+			}
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
